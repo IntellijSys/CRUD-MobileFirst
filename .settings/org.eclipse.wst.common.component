@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="CRUD-MobileFirst">
+        <wb-resource deploy-path="/" source-path="/apps/CRUDMobileFirst/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/CRUDMobileFirst/iphone"/>
+        <wb-resource deploy-path="/" source-path="/apps/CRUDMobileFirst/android"/>
+        <property name="context-root" value="CRUD-MobileFirst"/>
+    </wb-module>
+</project-modules>

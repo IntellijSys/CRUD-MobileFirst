@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>protocol</key> 
+	<string>http</string>
+	<key>host</key>
+	<string>Mohammads-MacBook-Air.local</string>
+	<key>port</key>
+	<string>10080</string>
+	<key>wlServerContext</key>
+	<string>/CRUD-MobileFirst/</string>
+	<key>application id</key>
+	<string>CRUDMobileFirst</string>
+	<key>application version</key>
+	<string>1.0</string>
+	<key>environment</key>
+	<string>iphone</string>
+	<key>buildtime</key>
+	<string></string>
+	<key>authenticitySharedData</key>
+	<string>${authenticitySharedData}</string>
+	<key>testWebResourcesChecksum</key>
+	<string>false</string>
+	<key>ignoredFileExtensions</key>
+	<string></string>
+	<key>wlMainFile</key>
+	<string>index.html</string>
+	<key>wlUid</key>
+	<string>kolIWHaDdpeLk2fz0zwu3g==</string>			
+	<key>platformVersion</key>
+	<string>7.1.0.0</string>
+	<key>wlAppFamily</key>
+	<string></string>
+	<key>wlShareCookies</key>
+	<string></string>
+	<key>wlShareUserCert</key>
+	<string>false</string>
+	<key>wlSecureDirectUpdatePublicKey</key>
+	<string></string>
+</dict>
+</plist>
