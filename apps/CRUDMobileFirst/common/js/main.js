@@ -1,16 +1,19 @@
+var pagesHistory = [];
+var currentPage = {};
+var path = "";
+ 
 function wlCommonInit(){
-	/*
-	 * Use of WL.Client.connect() API before any connectivity to a MobileFirst Server is required. 
-	 * This API should be called only once, before any other WL.Client methods that communicate with the MobileFirst Server.
-	 * Don't forget to specify and implement onSuccess and onFailure callback functions for WL.Client.connect(), e.g:
-	 *    
-	 *    WL.Client.connect({
-	 *    		onSuccess: onConnectSuccess,
-	 *    		onFailure: onConnectFailure
-	 *    });
-	 *     
-	 */
-	
-	// Common initialization code goes here
-	
+    // Special case for Windows Phone 8 only.
+    if (WL.Client.getEnvironment() == WL.Environment.WINDOWS_PHONE_8) {
+        path = "www/default/";
+    }
+ 
+    $("#pagePort").load(path + "pages/ListPage.html", function(){
+        $.getScript(path + "js/ListPage.js", function() {
+            if (currentPage.init) {
+                currentPage.init();
+            }
+        });
+    });
+ 
 }
