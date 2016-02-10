@@ -1,0 +1,23 @@
+<script>
+    $.getScript(path + "js/AddPage.js");
+</script>
+<p>
+    Currently <b>AddPage.html</b> page is loaded.
+</p>
+ 
+<input type="button" value="BACK" onclick="currentPage.back();" />
+ 
+<div id="addUser">
+    Name:<br>
+    <input name="name" type="text" id="name"/><br>
+    Office Number:<br>
+    <input name="officeNumber" type="text" id="officeNumber"/><br>
+    Phone Number:<br>
+    <input name="phoneNumber" type="text" id="phoneNumber"/><br>
+    Email:<br>
+    <input name="email" type="text" id="email"/><br>
+</div>
+ 
+<div id="addButton">
+    <input type="button" value="ADD USER" onclick="currentPage.add();">
+</div>

@@ -1,0 +1,27 @@
+<script>
+    $.getScript(path + "js/DetailPage.js");
+</script>
+<p>
+    Currently <b>DetailPage.html</b> page is loaded.
+</p>
+ 
+<input type="button" value="BACK" onclick="currentPage.back();" />
+ 
+<div id="addUser">
+    Name:<br>
+    <input name="name" type="text" id="name"/><br>
+    Office Number:<br>
+    <input name="officeNumber" type="text" id="officeNumber"/><br>
+    Phone Number:<br>
+    <input name="phoneNumber" type="text" id="phoneNumber"/><br>
+    Email:<br>
+    <input name="email" type="text" id="email"/><br>
+</div>
+ 
+<div id="editButton">
+    <input type="button" value="EDIT USER" onclick="currentPage.edit();">
+</div>
+ 
+<div id="deleteButton">
+    <input type="button" value="DELETE USER" onclick="currentPage.remove();">
+</div>
