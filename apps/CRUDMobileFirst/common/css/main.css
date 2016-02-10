@@ -1,0 +1,63 @@
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+margin: 0;
+padding: 0;
+}
+ 
+/* MobileFirst container div */
+body {
+min-height: 460px;
+margin: 0 auto;
+/*width: 320px;*/
+}
+ 
+h1 {
+font-size: 18px;
+}
+ 
+#AppBody {
+min-height: 460px;
+margin: 0 auto;
+/*width: 320px;*/
+background-color: #ccc;
+overflow: hidden;
+overflow-y: auto;
+}
+ 
+#header {
+text-align: center;
+background-color: #1D4D90;
+color: #F9FAFB;
+font-size: 16px;
+height: 38px;
+line-height: 38px;
+border-bottom: 1px solid #BBBBBB;
+}
+ 
+#wrapper {
+padding: 10px;
+}
+ 
+p{
+padding: 10px;
+}
+ 
+#itemsList{
+margin-top: 38px;
+}
+ 
+#itemsList li {
+border-bottom: 1px solid #bbb;
+min-height: 40px;
+padding: 0 25px 0 15px;
+cursor: pointer;
+}
+ 
+#itemsList li .pubDate {
+color: #555;
+font-size: 10px;
+font-family: Arial;
+}
+ 
+#itemsList li:hover {
+background-color: #EFEFEF;
+}
